@@ -1,0 +1,43 @@
+
+body{
+    
+    font-family: 'Libre Baskerville';
+    background: url("https://images.unsplash.com/photo-1494119372354-0c0e1f8c602e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80") no-repeat ;
+    background-size: cover;
+    color: white;  
+    
+    
+}
+.container{
+    
+    margin: 150px 200px;
+    text-align: center;
+    
+    
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+button{
+    background-color: black;
+    width: fit-content;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+}
+span{
+    font-size: 20px;
+
+}

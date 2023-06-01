@@ -1,0 +1,86 @@
+body{
+    background: url("https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80") ;
+    background-size: cover;
+}
+nav{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(240, 248, 255, 0.10 );
+    
+    
+}
+i{
+    height: fit-content;
+    font-size: 40px;
+    padding: 18px;
+    cursor: pointer;
+}
+.input-container{
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin: 20px 0px;
+
+}
+#input-box, #btn{
+    
+    height:max-content;
+    font-size: 25px;
+    border: black solid 2px;
+    padding: 5px 10px;
+    border-radius: 6px;
+   
+
+}
+#btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(227, 225, 225);
+    color: black;
+    
+}
+
+.result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.card{
+    border-radius: 10px;
+    flex: 1;
+    margin: 0px 30px;
+    border: black solid 1px;
+    height: 45vh;
+    background-color: aliceblue;
+
+}
+.sub-heading{
+    
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 30px;
+
+}
+.point{
+    
+    font-size: 18px;
+    margin: 0px;
+    
+}
+
+.value{
+    margin-top: 20px;
+    font-size: 40px;
+}

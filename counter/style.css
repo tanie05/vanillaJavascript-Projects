@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+    font-family: monospace;
+}
+h1{
+    font-size: 80px;
+    margin: 0px;
+    color: palevioletred;
+}
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    
+}
+.btn-container{
+    padding: 20px;
+}
+.increaseVal{
+    color: green;
+}
+.decreaseVal{
+    color: red;
+}
+@media screen and (max-width: 300px) {
+    h1{
+        font-size: 60px;
+    }
+    .btn-container{
+        display: flex;
+    }
+    .btn{
+        width: 80px;
+        font-size: 15px;
+    }
+}

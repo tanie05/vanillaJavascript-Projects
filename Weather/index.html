@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fb773f3c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <i class='fas fa-cloud-sun' id="logo"></i>
+            <h1>Check Weather in Your City</h1>
+        </nav>
+        <div class="input-container">
+            <input type="text" placeholder="Enter your city" id="input-box">
+            <button id="btn" onclick="findWeather()">Search</button>
+
+        </div>
+        
+        <div class="result">
+            <!-- {
+                "cloud_pct": 70,
+                "temp": 29,
+                "feels_like": 29,
+                "humidity": 43,
+                "min_temp": 29,
+                "max_temp": 29,
+                "wind_speed": 7.22,
+                "wind_degrees": 237,
+                "sunrise": 1685490721,
+                "sunset": 1685540956
+              } -->
+
+              <div class="card">
+                <p class="sub-heading">Temperature</p>
+                <h2 class="value" id="main-thing1"></h2>
+                <div class="point-one"></div>
+              </div>
+
+              <div class="card">
+                <p class="sub-heading">Humidity</p>
+                <h2 class="value" id="main-thing2"></h2>
+                <div class="point-two"></div> 
+              </div>
+
+              <div class="card">
+                <p class="sub-heading">Wind</p>
+                <h2 class="value" id="main-thing3"></h2>
+                <div class="point-three"></div>
+              </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
